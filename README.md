@@ -272,7 +272,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 - Click on `SELECT`
 ![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/sdfgjhkjhggfd.png)
 
-### 3.8) Add The Application Deployment Stage
+### 3.8) Confirm and Save
 - Click on `SAVE`
 ![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/templatejobsaedf.png)
 
