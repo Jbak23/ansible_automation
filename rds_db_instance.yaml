@@ -1,3 +1,4 @@
+################## CREATE DB SUBNET GROUP #################
 ---
 - name        : "{{ play_name }}"
   hosts       : "{{ hosts }}"
@@ -22,6 +23,8 @@
       debug:
         var: subnet_group_result
 
+
+#################### CREATE RDS DATABASE ###################
 ---
 - name: "{{ play_name }}"
   hosts: "{{ hosts }}"
