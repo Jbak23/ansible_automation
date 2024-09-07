@@ -11,4 +11,10 @@
 
     - name: Execute the shell script
       shell: "{{ execute_automation_script }}"
+    
+    - name: Assign permissions for PHP version upgrade
+      shell: "{{ upgrade_php_assign_execute_permission }}"
+
+    - name: Execute the shell script for PHP version upgrade
+      shell: "{{ upgrade_php_execute_automation_script }}"
 
