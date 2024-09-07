@@ -17,5 +17,5 @@ sed -i "s/pg_password=''/pg_password='admin'/g" inventory
 sudo ./setup.sh
 
 # Install boto3 and botocore Cloud SDK for python
-sudo pip3 install boto3 botocore
+sudo pip3 install boto boto3 botocore
 
