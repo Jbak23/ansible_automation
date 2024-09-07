@@ -1,7 +1,8 @@
 # Define variables for the RDS instance creation
 # Playbook Configuration
 play_name   : "Wordpress Web Application Database Automation"
-hosts       : "localhost"
+hosts       : all
+become_root : yes
 gather_facts: "False"
 connection  : "local"
 

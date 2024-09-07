@@ -2,6 +2,7 @@
 - name: "{{ play_name }}"
   hosts: "{{ hosts }}"
   connection: "{{ connection }}"
+  become: "{{ become_root }}"
   gather_facts: "{{ gather_facts }}"
   vars_files:
     - variables/vars_fetch_rds_db_endpoint.yaml
