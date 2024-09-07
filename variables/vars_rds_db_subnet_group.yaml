@@ -1,0 +1,17 @@
+# Define variables for the RDS instance creation
+# Playbook Configuration
+play_name   : "Wordpress Web Application Database Automation"
+hosts       : "localhost"
+gather_facts: "False"
+connection  : "local"
+
+# Variables for DB Subnet Group
+state                       : present
+aws_region                  : us-west-2
+db_subnet_group_name        : webapp-db-subnet-group
+db_subnet_group_description : "RDS instance subnet group"
+
+# Replace with actual subnet IDs
+db_subnets:
+  - subnet-012edebd8277cefd5 
+  - subnet-046261934ba16ad57

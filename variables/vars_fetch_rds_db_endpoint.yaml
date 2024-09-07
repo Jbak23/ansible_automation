@@ -1,0 +1,11 @@
+# Define variables for the RDS instance creation
+# Playbook Configuration
+play_name   : "Wordpress Web Application Database Automation"
+hosts       : "localhost"
+gather_facts: "False"
+connection  : "local"
+
+# Fetch RDS Endpoint address 
+region                : us-west-2  
+db_access_config_path : "/var/www/wordpress/wp-config.php"
+db_identifier         : wordpressappdb
