@@ -188,7 +188,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 ![ConfigureDBJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/hjgkfhdsgs.png)
 
 ### Confirm You Have The Following Job Templates Created
-![AllJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.59.06%20PM.png)
+![AllJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/templatejobs.png)
 
 ## 3) Create Project Workflow Job
 - Click on `Templates`
