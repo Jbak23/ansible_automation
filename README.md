@@ -221,7 +221,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 ### 3.3) Add The Application Server Provisioning Stage
 - Click on `START`
 - Click on the Drop Down on the Right hand and select `Template`
-- Select the `application-deployment-job-template` project
+- Select the `appserver-instance-job-template` project
 - `RUN` Select `Always`
 - `CONVERENCE` Select `Any`
 - Click on `SELECT`
