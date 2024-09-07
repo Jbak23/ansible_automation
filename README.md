@@ -112,24 +112,10 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 ![CreateCredential](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.04.13%20PM.png)
 
 ### D) Create Your Tower Project Job Templates 
-### D.0) Create The Database Subnet Group Job Template
-- Navigate to `Templates`
-- Click on the plus to create a `Job Template`
-    - Name: `database-subnet-group-instance-job-template`
-    - Inventory: `Appserver-Host`
-    - Job Type: Select `RUN`
-    - Project: Select `tower-automation-workflow-project`
-    - Playbook: Select the `rds_db_subnet_group.yaml`
-    - Credentials: Select your AWS Credential `aws-environment-credential`
-    - Verbosity: Select...
-    - Click on `SAVE`
-![JobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.09.20%20PM.png)
-![DatabaseJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.23.35%20PM.png)
-
 ### D.1) Create The Database Job Template
 - Navigate to `Templates`
 - Click on the plus to create a `Job Template`
-    - Name: `database-instance-job-template`
+    - Name: `database-subnet-group-dbinstance-job-template`
     - Inventory: `Appserver-Host`
     - Job Type: Select `RUN`
     - Project: Select `tower-automation-workflow-project`
@@ -138,7 +124,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
     - Verbosity: Select...
     - Click on `SAVE`
 ![JobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.09.20%20PM.png)
-![DatabaseJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%208.23.35%20PM.png)
+![DatabaseJobTemplate](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/sdsdsdsdsdsdsd.png)
 
 ### D.2) Create The Appserver Job Template
 - Click on the plus to create a `Job Template`
