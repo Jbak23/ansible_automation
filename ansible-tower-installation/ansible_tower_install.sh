@@ -16,3 +16,6 @@ sed -i "s/admin_password=''/admin_password='admin'/g" inventory
 sed -i "s/pg_password=''/pg_password='admin'/g" inventory
 sudo ./setup.sh
 
+# Install boto3 and botocore Cloud SDK for python
+sudo pip3 install boto3 botocore
+
