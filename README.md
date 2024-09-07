@@ -263,9 +263,18 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 - Click on `SELECT`
 ![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%2010.02.03%20PM.png)
 
+### 3.7) Add The "Fetch" Database DNS Endpoint Template
+- Click on `START`
+- Click on the Drop Down on the Right hand and select `Template`
+- Select the `fetch-database-dns-endpoint-job-template` project
+- `RUN` Select `Always`
+- `COVERAGE` Select `Any`
+- Click on `SELECT`
+![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/sdfgjhkjhggfd.png)
+
 ### 3.8) Add The Application Deployment Stage
 - Click on `SAVE`
-![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%2010.03.23%20PM.png)
+![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/templatejobsaedf.png)
 
 ### 4) Start The Workflow Automation
 - Click on `Templates`
