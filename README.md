@@ -254,7 +254,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 - Click on `SELECT`
 ![DatabaseJobs](https://github.com/awanmbandi/aws-real-world-projects/blob/project-resources-docs/images/Screen%20Shot%202023-11-14%20at%209.55.32%20PM.png)
 
-### 3.7) Add The Application Deployment Stage
+### 3.7) Add Configure Application Database Integration Stage
 - Click on `START`
 - Click on the Drop Down on the Right hand and select `Template`
 - Select the `configure-application-database-integration-job-template` project
