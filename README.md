@@ -212,7 +212,7 @@ Once you setup your Ansible Tower environment. Follow below instructions to crea
 ### 3.2) Add The Database Provisioning Stage
 - Click on `START`
 - Click on the Drop Down on the Right hand and select `Template`
-- Select the `database-instance-job-template` project
+- Select the `database-subnet-group-dbinstance-job-template` project
 - `RUN` Select `Always`
 - `CONVERENCE` Select `Any`
 - Click on `SELECT`
